@@ -25,8 +25,32 @@ body {
 
 .blue {
   color: blue;
+  cursor: not-allowed;
 }
 
 .violet {
   color: blueviolet;
+  cursor: not-allowed;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.monospace {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.legend {
+  color: gray;
+  font-size: 12px;
+}
+
+.image-flex {
+  display: flex;
+}
+.image-flex-content {
+  margin-left: 5px;
+  margin-top: 0;
 }
