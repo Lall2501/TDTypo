@@ -19,6 +19,14 @@ body {
   text-decoration: underline;
 }
 
-.well {
+.small {
   font-size: 8px;
+}
+
+.blue {
+  color: blue;
+}
+
+.violet {
+  color: blueviolet;
 }
