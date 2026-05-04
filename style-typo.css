@@ -4,10 +4,18 @@
 
 body {
   font-family: Arial;
-  width: 50%;
+  width: 55%;
   margin: 80px auto;
   text-align: left;
   line-height: 22px;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.real {
+  margin-top: 0;
 }
 
 .motherfuckingwebsite {
@@ -50,6 +58,7 @@ body {
 .legend {
   font-size: 12px;
   color: #456;
+  margin-top: -5px;
 }
 
 .image-flex {
@@ -57,7 +66,7 @@ body {
   max-width: 980px;
   margin: auto;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 .image-flex-content {
   padding: 10px;
@@ -71,4 +80,65 @@ body {
 
 .quote {
   color: #456;
+}
+
+.logo {
+  text-align: center;
+}
+
+.carre-couleur-444 {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  margin-left: 4px;
+  background-color: #444;
+}
+
+.carre-couleur-454545 {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  margin-left: 4px;
+  background-color: #454545;
+}
+
+.couleur-444 {
+  color: #444;
+  font-weight: bold;
+}
+
+.couleur-454545 {
+  color: #454545;
+  font-weight: bold;
+}
+
+.theme-toggles {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.theme-toggles button {
+  font-family: Arial;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  padding: 3px 5px;
+  text-decoration: underline;
+}
+
+.contrast-button {
+  background-color: lightgrey;
+  color: black;
+}
+
+.normal-button {
+  background-color: black;
+  color: white;
 }
